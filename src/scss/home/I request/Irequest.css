@@ -1,0 +1,131 @@
+.Irequest {
+  padding: max(5vw, 5em) max(7vw, 7em);
+  position: relative;
+}
+@media (max-width: 680px) {
+  .Irequest {
+    padding: max(4vw, 4em) max(2vw, 2em);
+  }
+}
+@media (max-width: 1377px) {
+  .Irequest {
+    padding: max(5vw, 5em) max(2vw, 2em);
+  }
+}
+.Irequest .container .titel {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  gap: max(1vw, 1em);
+}
+.Irequest .container .titel h1 {
+  font-size: max(2.4vw, 2.4em);
+}
+@media (max-width: 515px) {
+  .Irequest .container .titel h1 {
+    font-size: max(2vw, 2em);
+  }
+}
+.Irequest .container .titel .allSctions ul {
+  display: flex;
+  gap: max(1vw, 1em);
+  flex-direction: row-reverse;
+  align-items: center;
+  font-weight: 700;
+}
+@media (max-width: 545px) {
+  .Irequest .container .titel .allSctions ul {
+    gap: max(0.5vw, 0.5em);
+  }
+}
+.Irequest .container .titel .allSctions ul li {
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  border-radius: 1.875rem;
+  border: 1px solid var(--Strock-01, #b7bfc7);
+  background: var(--White-Secondary, #fafbfc);
+  cursor: pointer;
+}
+@media (max-width: 515px) {
+  .Irequest .container .titel .allSctions ul li {
+    padding: 0.75rem 1rem;
+  }
+}
+@media (max-width: 414px) {
+  .Irequest .container .titel .allSctions ul li {
+    padding: 0.75rem 0.5rem;
+  }
+}
+.Irequest .container .titel .allSctions ul li:first-child {
+  display: flex;
+  color: white;
+  padding: 0.75rem 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.875rem;
+  border: 1px solid var(--Blue, rgba(0, 112, 240, 0.9));
+  background: var(--Blue, rgba(0, 112, 240, 0.9));
+}
+@media (max-width: 515px) {
+  .Irequest .container .titel .allSctions ul li:first-child {
+    padding: 0.75rem 2rem;
+  }
+}
+.Irequest .container .cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: max(2vw, 2em);
+  margin-top: max(2vw, 2em);
+}
+.Irequest .container .cards .box {
+  border-radius: 1rem;
+  border: 1px solid var(--gray-light, #e1e8f0);
+  background: var(--White, #fff);
+  width: 22.6875rem;
+  padding: max(1vw, 1em);
+  flex-shrink: 0;
+}
+@media (max-width: 378px) {
+  .Irequest .container .cards .box {
+    width: 95vw;
+  }
+}
+.Irequest .container .cards .box .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Irequest .container .cards .box .icon h1 {
+  color: #000;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.Irequest .container .cards .box p {
+  color: var(--Black, #17181a);
+  font-size: max(0.8vw, 0.8em);
+  font-weight: 700;
+  margin-top: max(1.4vw, 1.4em);
+  margin-bottom: max(1vw, 1em);
+}
+.Irequest .container .cards .box button {
+  border-radius: 1.875rem;
+  border: 1px solid var(--Blue, rgba(0, 112, 240, 0.9));
+  background: var(--Blue, rgba(0, 112, 240, 0.9));
+  color: white;
+  font-size: max(1vw, 1em);
+  font-weight: bold;
+  padding: max(0.266vw, 0.266em) max(1vw, 1em);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.Irequest .container .cards .box button:hover {
+  background: var(--Blue, rgba(27, 95, 173, 0.9));
+}/*# sourceMappingURL=Irequest.css.map */

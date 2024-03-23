@@ -1,0 +1,145 @@
+.login {
+  background: var(--Gradient-01, linear-gradient(141deg, #f5f0ff 0%, #eff6fe 50.36%, #edfaf5 100%));
+}
+.login .container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+}
+@media (max-width: 1000px) {
+  .login .container {
+    justify-content: center;
+  }
+}
+.login .container .sin {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .container .sin form p {
+  margin: clamp(1vw, 5vw, 1rem);
+}
+.login .container .sin form p legend {
+  font-size: clamp(2vw, 5vw, 1rem);
+  margin-bottom: max(0.5vw, 0.5em);
+}
+@media (min-width: 1000px) {
+  .login .container .sin form p legend {
+    font-size: clamp(1vw, 5vw, 1rem);
+  }
+}
+.login .container .sin form p input {
+  width: 90vw;
+  height: 2.6875rem;
+  border-radius: max(0.75vw, 0.75em);
+  border: 1px solid var(--Strock-01, #b7bfc7);
+  background: var(--White, #fff);
+  font-size: clamp(2vw, 5vw, 0.8rem);
+  padding: clamp(2.6vw, 5vw, 0.5rem) clamp(2vw, 5vw, 0.7rem);
+}
+@media (min-width: 1000px) {
+  .login .container .sin form p input {
+    font-size: clamp(1vw, 5vw, 0.8rem);
+    padding: clamp(1.3vw, 5vw, 0.5rem) clamp(1vw, 5vw, 0.7rem);
+    width: 40vw;
+  }
+}
+.login .container .sin form .subment {
+  text-align: center;
+}
+.login .container .sin form .subment button {
+  margin: 1rem 0;
+  color: white;
+  width: 90vw;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.875rem;
+  border: 1px solid var(--Blue, rgba(0, 112, 240, 0.9));
+  background: var(--Blue, rgba(0, 112, 240, 0.9));
+  font-size: clamp(2vw, 5vw, 0.8rem);
+  padding: clamp(1vw, 5vw, 0.8rem);
+}
+@media (min-width: 600px) {
+  .login .container .sin form .subment button {
+    width: 50vw;
+  }
+}
+@media (min-width: 1000px) {
+  .login .container .sin form .subment button {
+    font-size: clamp(1vw, 5vw, 0.8rem);
+    padding: clamp(0.5vw, 5vw, 0.3rem);
+    width: 20vw;
+  }
+}
+.login .container .sin form .subment h1 {
+  color: #575757;
+  text-align: center;
+  font-family: Cairo;
+  font-size: clamp(1.3vw, 5vw, 0.8rem);
+  font-weight: 500;
+}
+@media (min-width: 1000px) {
+  .login .container .sin form .subment h1 {
+    font-size: clamp(1vw, 10vw, 0.5rem);
+  }
+}
+.login .container .sin form .subment h1 a {
+  color: var(--Primary-Color, #1f284f);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.125rem;
+}
+.login .container .welcome {
+  display: none;
+}
+@media (min-width: 1000px) {
+  .login .container .welcome {
+    display: block;
+    background: var(--White, #fff);
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.login .container .welcome h1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: var(--Text-Primary, #17181a);
+  font-family: Poppins;
+  font-size: clamp(3rem, 5vw, 3vw);
+  font-weight: 500;
+}
+.login .container .welcome h1::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  left: 10%;
+  background-size: cover;
+  width: clamp(5rem, 10vw, 6vw);
+  height: clamp(5rem, 10vw, 6vw);
+  background-repeat: no-repeat;
+  background-image: url(../../img/6.svg);
+}
+.login .container .welcome h1 span {
+  color: var(--Text-Primary, #17181a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: clamp(3rem, 5vw, 3vw);
+  font-weight: 700;
+}
+.login .container .welcome h2 {
+  color: var(--Text-Primary, #17181a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: clamp(2rem, 5vw, 2vw);
+  font-weight: 500;
+}/*# sourceMappingURL=login.css.map */

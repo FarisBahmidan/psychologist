@@ -1,0 +1,87 @@
+footer {
+  padding: max(5vw, 5em);
+  padding-bottom: 0;
+}
+@media (max-width: 774px) {
+  footer {
+    padding: max(2vw, 2em);
+  }
+}
+footer .container .sochel {
+  text-align: end;
+}
+footer .container .sochel svg {
+  width: max(2vw, 2em);
+  height: max(2vw, 2em);
+  cursor: pointer;
+}
+footer .container .links {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+@media (max-width: 774px) {
+  footer .container .links {
+    flex-direction: column-reverse;
+  }
+}
+footer .container .links .reach .titels {
+  gap: max(1vw, 1em);
+}
+footer .container .links .reach .titels h3 {
+  display: flex;
+  width: 100%;
+  margin-top: max(0.3vw, 0.3em);
+  margin-bottom: max(0.3vw, 0.3em);
+}
+footer .container .links .reach .titels ul li {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+footer .container .links .reach .titels ul li h3 {
+  font-size: max(1vw, 1em);
+  gap: max(0.3vw, 0.3em);
+}
+footer .container .links .reach .titels ul li h3 p {
+  color: rgba(0, 0, 0, 0.4666666667);
+}
+footer .container .links .resources .titels {
+  gap: max(1vw, 1em);
+}
+footer .container .links .resources .titels h3 {
+  display: flex;
+  width: 100%;
+  margin-top: max(0.3vw, 0.3em);
+  margin-bottom: max(0.3vw, 0.3em);
+}
+footer .container .links .resources ul {
+  display: flex;
+  flex-direction: column;
+  gap: max(0.4vw, 0.4em);
+}
+footer .container .links .resources ul li {
+  font-size: max(1vw, 1em);
+  color: black;
+}
+footer .CobyWright {
+  display: flex;
+  border-top: 1px solid rgba(119, 119, 119, 0.4666666667);
+  justify-content: center;
+  padding: max(2vw, 2em) 0 max(1vw, 1em);
+  margin-top: max(3vw, 3em);
+}
+footer .CobyWright h1 {
+  font-size: 0.6875rem;
+  display: flex;
+  align-items: center;
+  gap: max(0.3vw, 0.3em);
+}
+footer .CobyWright h1 p {
+  color: var(--Grey-01, #098ceb);
+  font-family: Cairo;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}/*# sourceMappingURL=footer.css.map */
