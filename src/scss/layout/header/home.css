@@ -43,7 +43,7 @@ header .container .nav ul li a {
 header .container .nav ul li a:hover {
   color: #3cba79;
 }
-header .container .nav ul button {
+header .container .nav ul .login {
   border: none;
   color: white;
   display: flex;
@@ -55,6 +55,6 @@ header .container .nav ul button {
   cursor: pointer;
   transition: 0.4s ease;
 }
-header .container .nav ul button:hover {
+header .container .nav ul .login:hover {
   background-color: rgba(36, 119, 76, 0.847);
 }/*# sourceMappingURL=home.css.map */
